@@ -1,0 +1,2 @@
+language: csharp
+solution: max_connect_4.sln
