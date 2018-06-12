@@ -1,5 +1,8 @@
 # Max Connect 4 Using AI
 
+[![Build Status](https://travis-ci.org/SanyTiger/max_connect_4.svg?branch=master)](https://travis-ci.org/SanyTiger/max_connect_4)
+[![HitCount](http://hits.dwyl.io/SanyTiger/max_connect_4.svg)](http://hits.dwyl.io/SanyTiger/max_connect_4)
+
 This program is an attempt to implement an agent that plays the Max-Connect4 game using search where the game is over when all positions are occupied. Obviously, every complete game consists of 42 moves, and each player makes 21 moves. 
 The score, at the end of the game is determined as follows: consider each quadruple of four consecutive positions on board, either in the horizontal, vertical, or each of the two diagonal directions (from bottom left to top right and from bottom right to top left). The red player gets a point for each such quadruple where all four positions are occupied by red pieces. Similarly, the green player gets a point for each such quadruple where all four positions are occupied by green pieces. The player with the most points wins the game.
 
