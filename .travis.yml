@@ -2,4 +2,4 @@ language: python
 python:
   - "2.7"
 script:
-  - python maxconnect4.py interactive input1.txt computer-next 6
+  - python maxconnect4.py one-move input1.txt output1.txt 6
